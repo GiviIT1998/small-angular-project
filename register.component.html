@@ -1,0 +1,11 @@
+<div class="row col-sm-9 m-auto mt-2">
+    <input [(ngModel)]="mys.sname" type="text" placeholder=" Server Name " class="form-control mt-2">
+    <input [ngModel]="mys.port" type="text" placeholder=" Server Port " class="form-control mt-2">
+    <input [(ngModel)]="mys.price" type="number" placeholder=" price " class="form-control mt-2">
+    <select [(ngModel)]="mys.status" class="form-select mt-2">
+       <option value="">Select status</option>
+       <option value="enable">Enable</option>
+       <option value="disable">Disable</option>
+    </select>
+    <button (click)="add()" class="btn btn-dark col-d d-block m-auto mt-2">Add Server</button>
+</div>

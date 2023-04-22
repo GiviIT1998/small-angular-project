@@ -1,0 +1,11 @@
+<div class="card"  [ngClass]=" cardInfo.status == 'enable' ? 'e' : 'd' " >
+    <h1>{{cardInfo.sname}}</h1>
+    <h1>{{cardInfo.port}}</h1>
+    <h1>{{cardInfo.price}}</h1>
+    <h1>{{cardInfo.status}}</h1>
+    <button class="btn btn-dark mt-2"  (click)="changestatus()">change</button>
+    <button class="btn btn-dark mt-2" (click)="showmore()">show more</button>
+   
+
+
+</div>

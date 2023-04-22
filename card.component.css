@@ -1,0 +1,14 @@
+.card{
+    width: 200px;
+    border: 3px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+.e{
+    background-color: green;
+}
+
+.d{
+    background-color: red;
+}

@@ -1,0 +1,7 @@
+<app-modal [hidden]="!clicked"  [modalInfo]="mInfo"   (closeModalEmitter)="closeModalSubscriber()"></app-modal>
+<app-register  (addServeremitter)="addServersubscriber($event)"></app-register>
+<div class="main">
+   <app-card  (showModalEmitter)="showModalSubscriber($event)"   *ngFor="let i of arr" [cardInfo]="i"
+  
+   ></app-card>
+</div>
