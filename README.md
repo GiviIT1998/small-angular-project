@@ -1,0 +1,2 @@
+# small-angular-project
+angular
